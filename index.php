@@ -22,7 +22,7 @@
                     $hour = (int) date('G');
                     $welcome = '';
                     
-                    var_dump($hour);
+                    var_dump($hour); 
                     
                     if ($hour >= 0 && $hour < 6)  {
                         $welcome = 'Доброй ночи';
